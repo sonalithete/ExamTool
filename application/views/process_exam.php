@@ -149,6 +149,7 @@ $exam_duration = $this->uri->segment(5);
         var user_id = <?php echo $user_id; ?>;
 
        var time = <?php echo $exam_duration; ?> * 60;
+       //var time = 30;
         callsetTimeOut();
 
         function callsetTimeOut() {
